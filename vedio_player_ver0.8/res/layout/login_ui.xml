@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dog" 
+    android:orientation="vertical" 
+    android:gravity="bottom">
+    
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="10dip"
+        android:color = "#000000"
+        android:background="@drawable/corner_round" >
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:paddingTop="0dip" >
+
+            <EditText
+                android:id="@+id/username_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+             
+                android:paddingRight="20dip"
+                android:ems="10"
+                android:inputType="phone" 
+                >
+                <!--   android:text="请输入您的手机号" -->
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/layout_top"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/layout_center_two"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/layout_top"
+            android:orientation="horizontal"
+            android:paddingLeft="25dip"
+            android:paddingRight="30dip" >
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="保存账号"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_center1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="10dip" >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="138dp"
+            android:layout_height="128dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layout_center_two"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button_pagedown_x"
+            android:paddingLeft="100dip" />
+
+    </RelativeLayout>
+
+</LinearLayout>
