@@ -13,3 +13,5 @@ travel or business trip.
   The presentation slides about Ucare can be found [here](http://pan.baidu.com/s/1nt9awop).
   
   You can also check out vedio demo of how our system work [here](http://v.youku.com/v_show/id_XNzM5ODI1MzA4.html)
+  
+## This project is droped and will be updated in [Ucare 1.0](https://github.com/armysheng/Ucare1.0)
